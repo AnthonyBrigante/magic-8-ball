@@ -82,3 +82,18 @@ footer {
 }
 
 
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    button {
+        font-size: 1rem;
+        padding: 8px 15px;
+    }
+
+    #response-img {
+        width: 150px;
+        height: 150px;
+    }
+}
