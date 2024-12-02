@@ -11,7 +11,7 @@ let userQuestion = prompt('What would you like to ask the 8Ball?')
 
 
 //DO NOTTA TOUCHA THIS CODE!!!
-let randomNumber = Math.floor(Math.random() * 8)
+let randomNumber = Math.floor(Math.random() * 10)
 let eightBall = ''
 let imageChoice =''
 //All possible answers
@@ -48,11 +48,18 @@ switch (randomNumber) {
     eightBall = 'Signs point to yes';
     imageChoice = 'imgs/8ball-8.jpg'
     break;
+    case 8:
+      eightBall = 'definetly not'
+      imageChoice = 'imgs/8ball-9.jpg'
+      break;
+      case 9:
+        eightBall= 'look out for busses for the next two weeks'
+        imageChoice = 'imgs/8ball-10.gif'
 }
 
 console.log('eightBall')
 
-document.getElementById('response-text').innerText =`${userName} has asked ${userQuestion} to the almighty 8Ball. The 8Ball has replied ${eightBall}`
+document.getElementById('response-text').innerText =`${userName} has asked ${userQuestion} to the almighty 8Ball. The 8Ball has replied ${eightBall}!`
 
 responseImg.src = imageChoice
 }

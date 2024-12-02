@@ -7,7 +7,7 @@ body {
     margin: 0;
 }
 
-/* Header styling */
+
 header {
     background-color: #444;
     padding: 10px 0;
@@ -15,7 +15,7 @@ header {
     font-size: 1.5rem;
 }
 
-/* Magic 8-Ball container */
+
 #magic\ 8-ball {
     background-color: #333;
     padding: 30px;
@@ -25,7 +25,7 @@ header {
     max-width: 600px;
 }
 
-/* Title styling */
+
 h1 {
     font-size: 2.5rem;
     margin-bottom: 20px;
@@ -33,14 +33,14 @@ h1 {
     text-shadow: 2px 2px #111;
 }
 
-/* Greeting and response styling */
+
 #greeting, #response-text {
     font-size: 1.2rem;
     margin: 20px 0;
     color: #ffc107;
 }
 
-/* 8Ball image styling */
+
 #response-img {
     display: block;
     margin: 20px auto;
@@ -55,7 +55,7 @@ h1 {
     transform: scale(1.1);
 }
 
-/* Button styling */
+
 button {
     padding: 10px 20px;
     font-size: 1.2rem;
@@ -72,7 +72,7 @@ button:hover {
     transform: scale(1.1);
 }
 
-/* Footer styling */
+
 footer {
     margin-top: 30px;
     padding: 10px 0;
@@ -81,19 +81,4 @@ footer {
     font-size: 0.9rem;
 }
 
-/* Mobile responsiveness */
-@media (max-width: 768px) {
-    h1 {
-        font-size: 2rem;
-    }
 
-    button {
-        font-size: 1rem;
-        padding: 8px 15px;
-    }
-
-    #response-img {
-        width: 150px;
-        height: 150px;
-    }
-}
